@@ -13,7 +13,7 @@ This docker image is provided **as-is**. As this is intended for personal use, m
 ### Parameters
 
 `<AMEX|BMO|MFC|RBC|TD>` - Specify your Bank/Financial Institution. Refer to the supported Banks/Financial Institutions [here](https://github.com/Bizzaro/Teller#features-of-this-fork).
-`<statements_dir>` - The path to your directory containing your statements. Refer to required directory structure [here](https://github.com/Bizzaro/Teller#how-to-use).
+`<statements_dir>` - The path to your directory containing your statements. Note: The `teller.sh` script will bind the directory based on the specified Bank/Financial Institution to the required structure as defined [here](https://github.com/Bizzaro/Teller#how-to-use).
 `<csv_output_path>` - The path to the output directory. If not specified, the current directory in which the `teller.sh` script is executed from will be used.
 
 ## Building locally
