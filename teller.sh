@@ -44,7 +44,7 @@ done
 
 # execute
 docker run -it --rm \
-    --mount type=bind,source="$PWD/$STATEMENTS_DIR",target=/statements \
+    --mount type=bind,source="$PWD/$STATEMENTS_DIR",target="/statements/$BANK" \
     --mount type=bind,source="$PWD/$CSV_OUTPUT_DIR",target=/output \
     -e TARGET_FI="$BANK" \
     $TELLER_IMAGE /scripts/run.sh -d /statements -o /output
