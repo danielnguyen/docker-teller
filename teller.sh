@@ -5,7 +5,7 @@ TELLER_IMAGE=danielnguyen/teller:latest
 echo Teller Docker Image: $TELLER_IMAGE
 
 # Get latest docker image + def
-# docker pull $TELLER_IMAGE
+docker pull $TELLER_IMAGE
 
 # Process options
 POSITIONAL_ARGS=()
