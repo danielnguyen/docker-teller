@@ -12,7 +12,8 @@ RUN apk update && apk upgrade \
         libc-dev \
         libffi-dev \
         py3-pip \
-        sqlite
+        sqlite \
+        libmariadb-dev
 
 # Copy contents
 COPY . .
