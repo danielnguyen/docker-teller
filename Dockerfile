@@ -19,7 +19,7 @@ COPY . .
 
 # Pull in the Teller repository
 RUN echo "Pulling Teller" \
-    && wget -qO- https://github.com/Bizzaro/Teller/archive/master.zip | busybox unzip - \
+    && wget -qO- https://github.com/danielnguyen/Teller/archive/master.zip | busybox unzip - \
     && mv Teller-master/ /Teller
 
 # Switch into the cloned Teller repository

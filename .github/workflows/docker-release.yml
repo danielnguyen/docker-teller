@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
   workflow_run:
-    workflows: ["Bizzaro/Teller Repo Updated Check"]
+    workflows: ["danielnguyen/Teller Repo Updated Check"]
     types: [completed]
 
   workflow_dispatch:
