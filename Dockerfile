@@ -13,7 +13,7 @@ RUN apk update && apk upgrade \
         libffi-dev \
         py3-pip \
         sqlite \
-        libmariadb-dev
+        mariadb-connector-c-dev
 
 # Copy contents
 COPY . .
