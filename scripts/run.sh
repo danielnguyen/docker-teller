@@ -2,7 +2,7 @@
 
 # Run Teller
 echo "Running Teller"
-python /Teller/teller.py -d /statements teller.db
+python /Teller/teller.py -d /statements -n teller
 
 # Make necessary ouput dirs
 mkdir -p /output
